@@ -62,5 +62,5 @@ showMore()
 
 let ibg = document.querySelectorAll('.ibg');
 ibg.forEach((element, index) => {
-    element.style.background = `url('${element.querySelector('img').getAttribute('src')}')`;
+    element.style.backgroundImage = `url('${element.querySelector('img').getAttribute('src')}')`;
 });
